@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <script>
+    const timelist = [];
+    const fire = function() {  // 이 함수를 실행해주세요
+      timelist.push(new Date().getTime());
+    };
+  </script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <h2 id="title">변화를 감지해보자</h2>
+  <article id="mission">
+    아래에 id가 container인 div가 있습니다<br />
+    이 div의 내용은 계속 바뀌게 됩니다<br />
+    JS를 이용하여 내용이 바뀔때마다 fire() 함수를 실행하도록 만들어주세요.
+  </article>
+  <div id="container">
+    🥰
+  </div>
+
+</body>
+
+</html>
