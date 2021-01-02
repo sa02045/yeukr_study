@@ -1,0 +1,27 @@
+<html>
+
+<head>
+</head>
+
+
+<body>
+  <h2 id="title">JSON의 형태 옳은지 판별해보기</h2>
+  <article id="mission">
+    <p>아래 textarea는 JSON문자열 입력받기 위한 것입니다</p>
+    <p>입력 후 버튼을 click하면 입력한 JSON의 규격이 올바른지를 판단해주세요</p>
+    <p>올바르다면 아래 황색박스의 innerHTML에 "옳음"을, 아니면 "옳지않음"을 넣어주세요</p>
+    <p>현재 예시로 틀린 규격의 JSON이 textarea에 입력되어있고 이 내용은 얼마든 바뀔 수 있습니다</p>
+    <p>황색박스는 div이며 id는 container입니다</p>
+  </article>
+
+  <div id="source">
+     <textarea>{"name': "park", "age":25}</textarea>
+     <button>올바른 규격의 JSON 문자열인지 판별하기</button>
+  </div>
+
+  <div id="container"></div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
