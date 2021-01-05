@@ -1,0 +1,38 @@
+<html>
+
+    <head>
+        <style>
+            .focus {
+                background: tomato;
+    }
+  </style>
+    </head>
+
+
+    <body>
+        <h2 id="title">커서 이동해보기</h2>
+
+        <div id="example">
+            <p>JS를 이용하여 이전요일, 다음요일 두 버튼을 클릭시 tomato색 focus가 이동하도록 만들어주세요</p>
+            <p>예를 들어 현재 수요일에 해당하는 li에 focus class가 주어져 있을 때 다음요일을 누르면 수요일li에서는 focus class를 지우고 목요일li에 focus class를 붙여주세요</p>
+            <p>만약 현재 일요일에 해당하는 li에 focus class가 주어져 있을 때 다음요일을 누르면 일요일li에서는 focus class를 지우고 월요일li에 focus class를 붙여주세요</p>
+        </div>
+
+        <article id="mission">
+            <button id="prev">이전요일</button>
+            <ul id="list">
+                <li>월요일</li>
+                <li>화요일</li>
+                <li class='focus'>수요일</li>
+                <li>목요일</li>
+                <li>금요일</li>
+                <li>토요일</li>
+                <li>일요일</li>
+            </ul>
+            <button id="next">다음요일</button>
+        </article>
+
+        <script src="./index.js"></script>
+    </body>
+
+</html>
